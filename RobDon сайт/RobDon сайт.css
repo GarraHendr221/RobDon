@@ -1,0 +1,84 @@
+body {
+    background-image: url(https://krot.info/uploads/posts/2020-01/1579376863_18-43.jpg);
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+nav:before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+ul li {
+    float:left;
+}
+
+ul li a {
+  color:#fff;
+  display: block;
+  height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+  transition: 0.35s;
+  box-shadow: blue 0 0 20px ;
+}
+ul li a:hover {
+    background: rgb(22, 12, 172);
+    box-shadow: blue 0 0 20px;
+}
+h1 {
+   background: black;
+   color:white;
+   width: 500px;
+   padding: 0;
+   margin: 5px;
+   text-shadow: blue 0 0 15px;
+   border-radius: 15px;
+   position: relative;
+   left:29%;
+   top:25px;
+   box-shadow: rgb(22, 12, 172) 0 0 20px;
+   cursor: pointer;
+   display: inline-block;
+}
+
+.img1 {
+    width: 700px;
+    height: 550px;
+    box-shadow: rgb(60, 255, 0) 0 0 25px;
+    position: relative;
+    left: 30%;
+    top: 130px;
+    display: inline-block;
+}
+.btn44 {
+    background: -webkit-linear-gradient(90deg,#1b1c55,#2f2888); 
+    background: linear-gradient(90deg,#1b1c55,#2f2888);
+    height: 35px;
+    width: 105px;
+    box-sizing: 10px;
+
+   position: relative;
+   top:20%;
+    
+
+   display: inline-block;
+   cursor: pointer;
+}

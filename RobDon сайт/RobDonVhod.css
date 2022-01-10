@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://krot.info/uploads/posts/2020-01/1579376863_18-43.jpg);
+}
+h1 {
+    color: white;
+    background: black;
+    box-shadow: white 0 0 15px;
+    position: relative;
+    top: 10%;
+    cursor: pointer;
+    height: 300px;
+    width: 500px;
+    left: 60%;
+    border-radius: 10px;
+    display: block;
+    
+
+}
